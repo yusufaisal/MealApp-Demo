@@ -19,7 +19,9 @@ struct CategoryMealRow: View {
             ScrollView (.horizontal, showsIndicators: false){
                 HStack {
                     ForEach(item.meals){ item in
-                        MealRow(item:item)
+                        NavigationLink(destination: MealRow(item: item)) {
+                            MealRow(item:item)
+                        }
                     }
                 }
             }

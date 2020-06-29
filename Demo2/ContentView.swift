@@ -18,8 +18,8 @@ struct ContentView: View {
                     CategoryMealRow(item: item)
                 }
             }
-        .listStyle(GroupedListStyle())
-            .navigationBarTitle("Home")
+            .listStyle(GroupedListStyle())
+            .navigationBarTitle("Meals")
         }
     }
 }

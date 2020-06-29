@@ -13,11 +13,13 @@ struct MealRow: View {
     var body: some View {
         VStack {
             Image(item.image)
+                .renderingMode(.original)
                 .resizable()
                 .aspectRatio(contentMode: .fill)
                 .frame(width: 150, height: 150)
                 .cornerRadius(5)
             Text(item.title)
+                .foregroundColor(.primary)
                 .font(.callout)
                 .frame(width:150, alignment: .leading)
         }
