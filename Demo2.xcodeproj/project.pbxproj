@@ -22,7 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AEA0691C24A98B46006E3855 /* Demo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEA0691C24A98B46006E3855 /* MealApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MealApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEA0691F24A98B46006E3855 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEA0692124A98B46006E3855 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		AEA0692324A98B46006E3855 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 		AEA0691D24A98B46006E3855 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AEA0691C24A98B46006E3855 /* Demo2.app */,
+				AEA0691C24A98B46006E3855 /* MealApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -142,7 +142,7 @@
 			);
 			name = Demo2;
 			productName = Demo2;
-			productReference = AEA0691C24A98B46006E3855 /* Demo2.app */;
+			productReference = AEA0691C24A98B46006E3855 /* MealApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -350,7 +350,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yusufaisal.Demo2;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MealApp;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -370,7 +370,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yusufaisal.Demo2;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MealApp;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
